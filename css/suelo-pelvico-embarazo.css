@@ -1,0 +1,60 @@
+header {
+    background-image: url('../img/cabecera-embarazo.jpg');
+}
+
+#introduccion {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+
+   #contenedor-patologia {
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 15px;
+
+        .card-patologia {
+            cursor: pointer;
+            width: 100%;
+            
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                padding: 20px;
+
+                span {
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-size: 1.2em;
+                }
+
+                i {
+                    font-size: 3em;
+                }
+            }
+            
+            ul {
+                transition: all 1s;
+                list-style: none;
+                text-align: center;
+                overflow: hidden;
+                height: 0px;
+                padding-left: 0px;
+            }
+        }
+
+        .card-patologia:hover {
+            background-color: #F9CD9D;
+        }
+   }
+}
+
+
+
+
+

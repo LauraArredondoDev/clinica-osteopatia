@@ -1,0 +1,66 @@
+header {
+    background-image: url('../img/cabecera-diastasis.jpg');
+}
+
+#diastasis-objetivos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+
+   
+/* Estilos para la rejilla responsiva */
+    .imgs {
+        list-style: none;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 0;
+        margin:0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+
+        li {
+            flex-grow: 1;
+            max-width: 200px;
+            padding: 5px;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: .76em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                font-size: 1.1em;
+                text-transform: uppercase;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto; 
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+
+    ul {
+        list-style: decimal;
+        padding-bottom: 15px;
+    }
+
+    /* a:hover {
+        background-color: transparent;
+        border: solid 3px #F9CD9D;
+    } */
+        
+}
+
